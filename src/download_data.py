@@ -27,6 +27,6 @@ df.fillna(df.median(), inplace=True)
 df["target"] = df["target"].apply(lambda x: 1 if x > 0 else 0)
 
 # Save cleaned dataset
-df.to_csv(FILE_PATH, index=False)
+df.to_csv(FILE_PATH, index=False,header=False)
 
 print("Dataset downloaded and prepared at:", FILE_PATH)

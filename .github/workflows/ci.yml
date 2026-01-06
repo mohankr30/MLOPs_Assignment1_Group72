@@ -25,7 +25,7 @@ jobs:
 
     - name: Lint code (flake8)
       run: |
-        flake8 app.py train_model.py || true
+        flake8 app.py src/train_model.py || true
 
     - name: Run unit tests
       run: |
@@ -33,7 +33,7 @@ jobs:
 
     - name: Train model
       run: |
-        python train_model.py
+        python src/train_model.py
 
     - name: Upload trained model artifact
       uses: actions/upload-artifact@v4
