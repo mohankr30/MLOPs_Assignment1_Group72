@@ -52,6 +52,7 @@ Dataset file:
 
 ## 📁 Repository Structure
 
+```
 .
 ├── app.py
 ├── train_model.py
@@ -65,6 +66,7 @@ Dataset file:
 ├── data/
 │ └── heart_disease.csv
 └── .github/workflows/ci.yml
+```
 
 ---
 ## 🧩 Prerequisites
@@ -224,6 +226,7 @@ Pipeline runs on every push and pull request and provides logs and artifacts per
 
 Mohan K R (2024aa05419@wilp.bits-pilani.ac.in)  
 Shreyas T S (2024aa05418@wilp.bits-pilani.ac.in)
+Sathwik H R (2024aa05903@wilp.bits-pilani.ac.in)
 
 
 
