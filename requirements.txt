@@ -8,3 +8,4 @@ uvicorn
 matplotlib
 seaborn
 flake8
+pytest
