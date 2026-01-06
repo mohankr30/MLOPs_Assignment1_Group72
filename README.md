@@ -215,6 +215,8 @@ A GitHub Actions pipeline is implemented to automate:
 
 Pipeline runs on every push and pull request and provides logs and artifacts per run.
 
+## Architecture Diagram
+![alt text](Documents/Architecture%20Diagram.png)
 ## 📌 Notes for Users
 
 * Local Kubernetes deployment using Minikube satisfies assignment requirements
